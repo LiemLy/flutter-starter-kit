@@ -56,7 +56,7 @@ To safely start off your new flutter application while basing it off this projec
 Say, your new `appId` is meant to be `example.company.myapp`, here's how to go about it:
 - Ensure **Android Studio** has finished indexing your project. **VERY IMPORTANT**
 - Making sure you're in the **Project Viewer* mode, expand on the **starterkit_android** to its entirety
-- As you can see, the current `nammespace` is set to `space.acelords.starterkit`
+- As you can see, the current `nammespace` is set to `app.ihrm.me`
 - Right-click on `space`, select `refactor`>`rename` and rename to your desired name, e.g. `example`
 - Select **Do Refactor** on all files presented at the terminal.
 - Repeat the same steps for the other parts of the `namespace`, i.e. `acelords` => `example` and `starterkit` => `myapp`

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
-import 'package:starterkit/utils/admob_constants.dart';
 import 'package:starterkit/utils/constants.dart';
 import 'package:starterkit/utils/styles.dart';
 import 'package:starterkit/views/movies/index.dart';
@@ -43,18 +42,6 @@ class _HomePageState extends State<HomePage> {
               '$_counter',
               style: Theme.of(context).textTheme.display1,
             ),
-
-            SizedBox(height: 20,),
-
-            Text("Native Ad",
-              style: Styles.h1.copyWith(
-                height: 1.5,
-              )
-            ),
-
-            SizedBox(height: 10,),
-
-            buildNativeAd(),
 
             SizedBox(height: 20,),
 

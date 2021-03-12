@@ -2,8 +2,8 @@ class Constants {
   static bool testing = true;
 
   /// general setup
-  static String appId = "space.acelords.starterkit";
-  static String iosAppId = "space.acelords.starterkit";
+  static String appId = "app.ihrm.me";
+  static String iosAppId = "app.ihrm.me";
   static String appName = "Flutter Starter Kit";
   static String appTagLine = "Buiild a FLutter app like a Pro by Using the BLoC Pattern!";
   static String appBio = "The Best Flutter Starter Kit";
@@ -52,7 +52,7 @@ class Constants {
   static String vipCoinsDateKey = "vip_coins_date";
 
   // api keys
-  static String moviesApiKey = "API_KEY"; // e.g. "bff708fnwFwef9832ed927da1d"; or Env.moviesApiKey;
+  static String moviesApiKey = "46c8f4f525bdd00cc55108034d90ff4e"; // e.g. "bff708fnwFwef9832ed927da1d"; or Env.moviesApiKey;
 
   /// api routes
   static String apiBaseUrl = "http://api.themoviedb.org/3/";

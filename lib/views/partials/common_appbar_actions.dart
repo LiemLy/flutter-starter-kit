@@ -13,5 +13,14 @@ List<Widget> CommonAppBarActions() {
       },
     ),
   );
+   actions.add(
+    IconButton(
+      icon: Icon(Icons.home),
+      highlightColor: Colors.pink,
+      onPressed: () {
+        Share.share(Constants.shareMessage, subject: Constants.shareSubject);
+      },
+    ),
+  );
   return actions;
 }
